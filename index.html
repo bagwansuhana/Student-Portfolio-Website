@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A responsive student portfolio website"><title>Student Portfolio</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><nav class="container nav"><a class="brand" href="#home">MyPortfolio</a><button id="menu-toggle" aria-expanded="false">Menu</button><div id="nav-links"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></nav></header>
+<main>
+<section id="home" class="hero"><div class="container"><p class="eyebrow">STUDENT · DEVELOPER · LEARNER</p><h1>Hello, I'm <span>Your Name</span>.</h1><p class="lead">I build useful projects while learning web development, Python, and data-driven problem solving.</p><a class="button" href="#projects">Explore my work</a></div></section>
+<section id="about" class="container section"><h2>About me</h2><p>I'm a student who enjoys turning ideas into practical projects. This website shares my work, skills, and learning journey.</p></section>
+<section id="projects" class="section muted"><div class="container"><h2>Featured projects</h2><div class="cards"><article><h3>RepoReady</h3><p>A Python CLI tool that checks essential repository files.</p><b>Python</b></article><article><h3>Study Planner</h3><p>A small tool for organizing tasks and tracking progress.</p><b>Python</b></article><article><h3>Portfolio Website</h3><p>A responsive website built with HTML, CSS, and JavaScript.</p><b>HTML · CSS · JS</b></article></div></div></section>
+<section id="skills" class="container section"><h2>Skills I'm developing</h2><div class="skills"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Git & GitHub</span><span>Problem solving</span></div></section>
+<section id="contact" class="section muted"><div class="container"><h2>Contact</h2><p>Use this demo form to prepare a message.</p><form id="contact-form"><label for="name">Your name</label><input id="name" required maxlength="80"><label for="email">Your email</label><input id="email" type="email" required><label for="message">Message</label><textarea id="message" rows="4" required maxlength="1000"></textarea><button class="button">Prepare message</button><p id="status" role="status"></p></form><small>Demo only: this form does not send or store messages.</small></div></section>
+</main><footer><div class="container">© <span id="year"></span> Your Name · HTML, CSS and JavaScript</div></footer><script src="script.js"></script>
+</body></html>
